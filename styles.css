@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size:x-large;
+}
+
+#publicaciones {
+    background-color: #EAEAEA;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.publicacion {
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.primeralinea {
+    padding: 0px 15px;
+}
+
+.descripcion {
+    padding: 0px 20px;
+    font-size: small;
+}
+
+img {
+    display:block;
+    width: 600px;
+}
+
+p {
+    display:inline-block;
+}
+
+.primeralinea p:first-child {
+    font-weight: bold;
+}
+.primeralinea p:nth-child(2) {
+    float: right;
+    color: grey;
+    font-size: small;
+    padding: 5px 0px 0px;
+}
